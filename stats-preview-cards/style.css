@@ -111,13 +111,16 @@ footer{
     height: 7.5em;
 }
 
+.attribution{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 2em;}
 
-/* @media (min-width: 768px){
-    .container{
-        width: 80%;
-    }
+.attribution p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;}
 
-}  */
+.attribution a { color: var(--accent) }
 
 @media (min-width: 1025px) {
 
@@ -138,6 +141,7 @@ footer{
     .card{
         height: 57.5em;
     }
+
     .card-image{
     order: 2;
     height: 575px;
@@ -178,7 +182,7 @@ footer{
         max-width: min-content;
     }
 
-    .umstats{
+    .statitcs{
         display: flex;
         justify-content:space-between;
 
