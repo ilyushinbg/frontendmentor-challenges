@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+
+}
+
+.container{ 
+    margin: 0 auto;
+    max-width: 1400px;
+    
+}
+
+.card-holder{
+    border-radius: 15px 15px 0px 0px;
+    background: #fff url(./images/bg-pattern-card.svg) no-repeat;
+    margin: 0 auto;
+    margin-top: 10em;
+    width: 88.5%;
+    text-align: center;
+}
+
+
+
+
+.profile-picture img{
+    margin-top: 9em;
+    border: solid 5px white;
+    border-radius: 50px;
+    max-width: 35%;
+}
+
+.profile-info{
+    background-color: white;
+    line-height: 2em;
+    padding-bottom: 4.5em;
+
+}
+
+.profile-info p{
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+#age {
+    color: gray;
+    font-weight: lighter;
+}
+
+@media (min-width: 1025px) {
+
+    .card-holder{
+        border-radius: 15px;
+    }
+    
+}
