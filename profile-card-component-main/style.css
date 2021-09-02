@@ -7,11 +7,18 @@
 }
 
 html{
+    
+    --dark-cyan: hsl(185,75%,39%);
+    --dark-blue: hsl(229,23%,23%);
+    --dark-grayish: hsl(227,10%,46%);
+    --dark-gray:hsl(0,0%, 59%);
+    
+    font-family: 'Kumbh Sans',sans-serif;
     font-size: 62.5%;
 }
 
 body{
-    background-color: hsl(185, 75%, 39%);
+    background-color: var(--dark-cyan);
 
 }
 
@@ -22,7 +29,7 @@ body{
 }
 
 .card-holder{
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px;
     background: #fff url(./images/bg-pattern-card.svg) no-repeat;
     margin: 0 auto;
     margin-top: 10em;
@@ -38,23 +45,34 @@ body{
     border: solid 5px white;
     border-radius: 50px;
     max-width: 35%;
+    margin-bottom: 1.5em;
 }
 
 .profile-info{
     background-color: white;
     line-height: 2em;
-    padding-bottom: 4.5em;
-
+    padding-bottom: 1.5em;
 }
 
 .profile-info p{
+    color: var(--dark-blue);
     font-size: 1.7em;
     font-weight: bolder;
+    padding-bottom: .4em;
 }
 
 #age {
-    color: gray;
+    color: var(--dark-gray);
     font-weight: lighter;
+}
+
+#city{
+    font-size: 1.2em;
+    color: var(--dark-blue);
+}
+
+.stats{
+    border-top: 1px solid gainsboro;
 }
 
 @media (min-width: 1025px) {
